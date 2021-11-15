@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <style>
+      .form-element {
+        display: block;
+      }
+      .form-element input {
+        margin-left: 5px;
+      }
+      #btn {
+        display: block;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form class="form">
+      <label class="form-element"
+        >First name<input type="text" required placeholder="First name"
+      /></label>
+      <label class="form-element"
+        >Last name<input type="text" required placeholder="Last name"
+      /></label>
+      <label class="form-element"
+        >Email<input type="email" required placeholder="Email"
+      /></label>
+      <label class="form-element"
+        >Username<input type="text" required placeholder="Username"
+      /></label>
+      <label class="form-element"
+        >Password<input
+          type="password"
+          required
+          placeholder="Password"
+          minlength="10"
+      /></label>
+      <label class="form-element"
+        >Birth date<input type="date" required
+      /></label>
+      <p>
+        <label class="form-element"
+          >How happy are you?<input type="range"
+        /></label>
+        <label class="form-element"
+          >What is your fav.color?<input type="color"
+        /></label>
+
+        <input id="btn" type="submit" value="Create Account" />
+      </p>
+    </form>
+  </body>
+</html>
