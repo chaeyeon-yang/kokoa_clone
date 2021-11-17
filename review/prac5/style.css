@@ -1,0 +1,119 @@
+:root {
+  --main-border: 3px solid black;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Russo One", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+
+  margin: 20px;
+  font-family: ;
+}
+
+/*"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+.frame {
+  display: block;
+  width: 600px;
+  border: 7px solid #00c6ad;
+  align-items: center;
+  padding: 0 50px 0 50px;
+  margin-bottom: 100px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-size: 40px;
+}
+.header span {
+  margin-right: 150px;
+}
+.playing {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 70px 0;
+}
+.playing_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 230px;
+  background-color: #ffbd11;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin-right: 35px;
+}
+.playing_image i {
+  font-size: 100px;
+  color: white;
+}
+.playing_song span {
+  font-size: 60px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.btns_play,
+.btns_heart,
+.btns_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: var(--main-border);
+  box-shadow: 0 5px black;
+}
+.btns_play {
+  width: 200px;
+  border-radius: 15px;
+}
+.btns_play span {
+  font-size: 30px;
+}
+.btns_heart,
+.btns_plus {
+  width: 70px;
+  border-radius: 35px;
+}
+.playlist_column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.playlist_image {
+  width: 80px;
+  height: 80px;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+.playlist_describe {
+  text-align: start;
+  width: 70%;
+  padding-top: 20px;
+}
+.playlist_describe span {
+  font-size: 30px;
+}
+.playlist_describe h3 {
+  opacity: 0.5;
+}
+.playlist_column:first-child .playlist_image {
+  background-color: tomato;
+}
+.playlist_column:nth-child(2) .playlist_image {
+  background-color: pink;
+}
+.playlist_column:nth-child(3) .playlist_image {
+  background-color: blue;
+}
+.playlist_column:last-child .playlist_image {
+  background-color: green;
+}
