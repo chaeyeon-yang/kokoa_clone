@@ -1,0 +1,60 @@
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6bbcbe;
+}
+.elements {
+  position: absolute;
+  top: 200px;
+}
+.element_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.element_second {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.element_circle {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+}
+.element_rect {
+  background-color: white;
+  width: 10px;
+  height: 50px;
+  margin: 0 5px 0 5px;
+}
+.element_circle:nth-child(1) {
+  animation: animation1 5s ease-in-out infinite;
+}
+@keyframes animation1 {
+  100% {
+    transform: translateX(150px);
+    transform: rotate(70deg);
+  }
+}
+@keyframes animation2 {
+  0% {
+
+  }
+  25% {
+    scaleY(10px);
+  }
+  50% {
+
+  }
+  75% {
+
+  }
+  100% {
+
+  }
+}
