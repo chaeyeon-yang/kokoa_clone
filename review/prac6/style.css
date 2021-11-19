@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 200vh;
+}
+.frame {
+  width: 70%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: #ffce33;
+  padding: 0 20px;
+}
+.column__library,
+.column__search {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.column__search {
+  position: absolute;
+  top: 130px;
+  width: 60%;
+  height: 40px;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 28px,
+    rgba(0, 0, 0, 0.18) 0px 10px 10px;
+}
+.column__library span {
+  font-size: 25px;
+  font-weight: 800;
+}
+.column__search span,
+.column__search i {
+  font-size: 18px;
+  color: rgb(156, 156, 156);
+}
+main {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+main h1,
+h2 {
+  margin: 0;
+}
+.component {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.component img {
+  border-radius: 15px;
+}
+.component_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  margin: 0 30px;
+}
+.author {
+  margin: 8px 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: rgb(156, 156, 156);
+}
+.star-rating {
+  font-size: 25px;
+  color: #ffce33;
+  margin-bottom: 15px;
+}
+.btn_genre {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+}
+.btns2 {
+  display: flex;
+  position: relative;
+}
+.bookmark {
+  display: flex;
+  position: absolute;
+  top: 22px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #ffce33;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.btn_read {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  background-color: black;
+  color: white;
+  width: 160px;
+  height: 45px;
+  border-radius: 10px;
+}
+.booklist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.booklist img {
+  width: 160px;
+  height: 240px;
+  margin-bottom: 30px;
+}
+.author_img {
+  width: 700px;
+  height: 280px;
+}
+.author_desc {
+  margin-left: 50px;
+}
+.author_detail {
+  margin-top: 20px;
+  color: rgb(156, 156, 156);
+  font-size: 18px;
+}
