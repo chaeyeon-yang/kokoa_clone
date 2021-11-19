@@ -1,0 +1,27 @@
+@import "variables.css";
+
+/*Components*/
+@import "components/screen-header.css";
+@import "components/bookmark.css";
+@import "components/book-list.css";
+@import "components/book-info.css";
+@import "components/star-rating.css";
+@import "components/author-info.css";
+@import "components/btns.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 200vh;
+}
+.frame {
+  width: 70%;
+}
+main {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+main h1,
+h2 {
+  margin: 0;
+}

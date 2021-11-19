@@ -1,0 +1,12 @@
+.author_img {
+  width: 700px;
+  height: 280px;
+}
+.author_desc {
+  margin-left: 50px;
+}
+.author_detail {
+  margin-top: 20px;
+  color: var(--gray);
+  font-size: 18px;
+}

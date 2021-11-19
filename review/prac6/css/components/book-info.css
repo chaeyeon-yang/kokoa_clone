@@ -1,0 +1,22 @@
+.component {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.component img {
+  border-radius: 15px;
+}
+.component_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  margin: 0 30px;
+}
+.author {
+  margin: 8px 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: var(--gray);
+}
