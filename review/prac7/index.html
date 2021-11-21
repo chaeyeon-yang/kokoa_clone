@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+  </head>
+  <body>
+    <div class="frame">
+      <div class="column">
+        <div class="header">
+          <div><i class="fas fa-arrow-left"></i></div>
+          <div><i class="fas fa-search"></i></div>
+        </div>
+        <div class="artist">
+          <img src="img/tyler.jpg" alt="tyler" />
+          <span class="artist_name">Tyler, The Creator</span>
+          <span class="artist_genre">Rap, Hip-Hop</span>
+          <div class="artist_btns">
+            <div>Shuffle</div>
+            <div id="heart_cnt">
+              <img src="img/heart-fill.svg" width="16" height="16">
+              <span>212 971</span>
+            </div>
+          </div>
+        </div>
+        <div class="playlist">
+          <div class="playlist_song">
+            <img src="img/song1.jpg" alt="EARFQUAKE" />
+            <div class="song_detail">
+              <span class="playlist_artist">Tyler, The Creator</span>
+              <div class="playlist_title">EARFQUAKE</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="playlist_song" id="playing">
+            <img src="img/song2.jpg" alt="NOVEMBER" />
+            <div id="playing_bg"></div>
+            <div id="playing_icon">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="song_detail">
+              <span class="playlist_artist">Tyler, The Creator</span>
+              <div class="playlist_title">NOVEMBER</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="playlist_song">
+            <img src="img/song2.jpg" alt="911" />
+            <div class="song_detail">
+              <span class="playlist_artist">Tyler, The Creator</span>
+              <div class="playlist_title">911</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="playlist_song">
+            <img src="img/song3.jpg" alt="WOLF" />
+            <div class="song_detail">
+              <span class="playlist_artist">Tyler, The Creator</span>
+              <div class="playlist_title">WOLF</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="playing_bar">
+          <div class="playing_info">
+            <span>Tyler, the Creator</span>
+            <span>NOVEMBER</span>
+          </div>
+          <div class="play_btns">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-skip-start-fill" viewBox="0 0 16 16">
+  <path d="M4 4a.5.5 0 0 1 1 0v3.248l6.267-3.636c.54-.313 1.232.066 1.232.696v7.384c0 .63-.692 1.01-1.232.697L5 8.753V12a.5.5 0 0 1-1 0V4z"/>
+</svg>
+            <div class="stop_icon">
+              <div></div>
+              <div></div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-skip-end-fill" viewBox="0 0 16 16">
+  <path d="M12.5 4a.5.5 0 0 0-1 0v3.248L5.233 3.612C4.693 3.3 4 3.678 4 4.308v7.384c0 .63.692 1.01 1.233.697L11.5 8.753V12a.5.5 0 0 0 1 0V4z"/>
+</svg>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="header">
+          <div><i class="fas fa-arrow-left"></i></div>
+          <div><i class="fas fa-ellipsis-v"></i></div>
+        </div>
+        <div class="song"><img src="img/song2.jpg" alt="" /></div>
+        <div class="song_info">
+          <span>November</span>
+          <span>Tyler, The Creator</span>
+        </div>
+        <div class="song_status">
+          <div class="song_playingtime">
+            <span>1:56</span>
+            <span>2:21</span>
+          </div>
+          <div class="song_bar">
+            <div class="inner_frame"></div>
+            <div class="outer_frame">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <div class="song_playingbar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+            <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+              <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-skip-start-fill" viewBox="0 0 16 16">
+            <path d="M4 4a.5.5 0 0 1 1 0v3.248l6.267-3.636c.54-.313 1.232.066 1.232.696v7.384c0 .63-.692 1.01-1.232.697L5 8.753V12a.5.5 0 0 1-1 0V4z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-skip-end-fill" viewBox="0 0 16 16">
+            <path d="M12.5 4a.5.5 0 0 0-1 0v3.248L5.233 3.612C4.693 3.3 4 3.678 4 4.308v7.384c0 .63.692 1.01 1.233.697L11.5 8.753V12a.5.5 0 0 0 1 0V4z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
+            <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/>
+          </svg>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2494460f4d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

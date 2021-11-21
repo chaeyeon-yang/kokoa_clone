@@ -1,0 +1,24 @@
+.playing_bar {
+  display: flex;
+  width: 80%;
+  background-color: black;
+  border-radius: 60px;
+  padding: 15px 30px;
+}
+.playing_info {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+.playing_info span:first-child {
+  width: 100px;
+  color: rgb(156, 156, 156);
+  font-size: 10px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.playing_info span:last-child {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
